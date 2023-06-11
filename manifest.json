@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Ikea 3D models",
+    "description": "A Chrome Extension for downloading 3D models directly from ikea website",
+    "version": "0.0.1",
+    "author": "Nicolás García",
+    "icons": {
+    },
+    "content_scripts": [{
+      "matches": ["*://www.ikea.com/*"],
+      "js": ["content_script.js"]
+    }]
+  }
+  
